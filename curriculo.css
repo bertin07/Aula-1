@@ -1,39 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+.icones{
+    display: flex;
+}
+
+.contato {
+    margin-bottom: 10px;
+    padding-left: 15px;  
+    font-family: "Nunito", sans-serif;
+}
+
+#foto {
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+    margin-right: 60px;
+    border: solid 3px black;
+}
+
 #pai {
     display: flex;
     border-top: solid 15px;
     border-bottom: solid 15px;
-
+    width: 1400px;
+    font-size: 25px;
 }
 
-#left {
+.left {
     background-color: #d9d9d9;
     padding-left: 100px;
-    height: 900px;
-    width: 600px;
+    padding-right: 80px;
 }
 
-#right {
+.right {
     background-color: white;
-    padding-left: 80px;
-    height: 900px;
-    width: 800px;
+    padding-left: 60px;
+    margin-left: 50px;
 }
 
-#informacoes {
-    display: flex;
-    align-items: baseline;
-}
 
 .titulo {
     font-family: "Ruda", sans-serif;
     font-weight: 900;
+    margin-top: 40px;
 }
 
 .paragrafo {
     font-family: "Nunito", sans-serif;
+    margin: 0px;
 }
 
+h1 {
+    font-size: 80px;
+}
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.fim {
+    padding-bottom: 100px;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+}
